@@ -1,0 +1,68 @@
+WEB PAGES:
+  - Paginas WEB;
+  - Acessado pelo navegador;
+  - Encontrado pelo endereço universal URL;
+    * rocketseat.com.br;
+  - Resposta dada pelo servidro é uma cópia da pagina;
+    * HTML > Hyper Text Markup Language (estrutura do documento);
+    * CSS > Cascading Style Sheet (estilo do documento, beleza);
+    * Javascript
+
+WEB SITES:
+  - Sites;
+  - Agrupamento, estuturado(arquitetado) de varias paginas WEB;
+  - Pode ser:
+    * Estatico:
+      ° A pagina é a sempre a mesma;
+      ° Alteração direta no codigo e por quem a criou;
+      ° Não interage com o banco de dados;
+    * Dinamico:
+      ° Conteudo da pagina é dinamico;
+      ° Interação com o banco de dados, para modelar a pagina;
+      ° Modificação sem precisar mexer no codigo da pagina;
+      ° Com o memso modelo da pagina é gerada uma pagina em tempo real;
+      ° Diversas paginas com um unico modelo;   
+  - Um usuario não sabe diferenciar se é estatico ou dinamico;
+
+WEB APLICATION:
+  - Aplicação Web;
+  - Um programa, um software que vive no servidor:
+    * Linguagem de programação;
+    * Banco de dados;
+  - Ultiliza atraves de paginas WEB e pelo navegador;
+  - É mais complexo e possui mais requisitos;
+  - Exemplo: Facebook, Gmail, YouTube, Figma;
+  - Desafios: 
+    * Aplicação deve ser responsiva (Se adaptar para diferentes dispositivos);
+    * Performace;
+    * Acessibilidade (Visual, Auditiva, SEO);
+
+FRONT-END AND BACK-END:
+  - Front-end:
+    * Cliene(client-side);
+    * Browser:
+      ° Digitar URL e faz um pedido (request) para o servidor;
+    * Tecnologias:
+      ° HTML, CSS, Javascript, Imagens;
+      ° Frameworks, Bibliotecas;
+  - Back-end:
+    * Servidor(server-side);
+    * Rece o pedido do front-end:
+      ° Entende e processa o pedido e devolve para o Frond-end;
+      ° Regras de negócios da aplicação;
+    * Tecnologias: 
+      ° PHP, Python, Java, Javascript;
+      ° Banco de dados;
+
+WEB TRADICIONAL X SPA:
+  - WEB tradicional:
+    * Recarregar a página para ter conteudo atualizado;
+    * Fronte-end e o back-end numa só aplicação;
+    * Servidor processa e devolve toda a pagina de uma só vez;
+  - SPA (Single page application):
+    * Sensação de ter uma unica pagina;
+    * Não precisa recarregar a pagina para ter o conteudo atualizado;
+    * Front-end e Back-end são aplicações diferentes;
+    * Servidor responde a aplicação frint-end;
+      ° Front-end feito com uso de frameworks;
+      ° Back-end é formato de API;

@@ -1,0 +1,45 @@
+HARDWARE
+- Componentes fisicos do computador (Teclado, monitor mouse, placa de video, processador, placa mãe, mémoria...);
+
+PERIFÉRICOS
+- Componentes conectados ao computador, que são usador para enviar ou receber informações do computador (Teclado, mouse, monitor, webcam...);
+
+SOFTWARE
+- Conjunto de instruções / codigos que permite controlar um aparelho eletronico;
+- Parte logica do computador;
+- Firmware:
+  * A função do firmware é armazenar toda informação pra que o aparelho funcione corretamente;
+  * O firmware é armazenado permanentemente em um circuito integrado(chip) de memoria de hardware no momento da fabricação do componente;
+- Drivers:
+  * A função do drivers é ser a ponte entre o sistema operacional e o firmware dos dispositivos eletronicos;
+  * O driver é instalado no computador quando se há necessidade de conectar um novo aparelho;
+- Sistema operacional:
+  * Um sistema operacional é responsavel pelo gerenciamento de todo o hardware do seu computador. É ele que vai dizer por exemplo para um programa quando ele poderá ser executado e por quanto tempo, quanto de memoria RAM usar, gerenciamentode SSD/HD, etc;
+- programa:
+  * Software > Programa de computador;
+  * Program > Programa de computador ou aplicativo;
+  * Um programa é um conjunto de instruções que descreve uma tarefa e/ou trabalho especifico no computador;
+  * São ferramentas desenhadas para o usuario realizar ações;
+
+COMPONENTES
+- Memória RAM:
+  * Memória RAM é um espaço temporario de informações do sistema operacional e de aplicativos em uso;
+  * Quando a ação é concluida por um software, os arquivos que estavam em uso são movidos da RAM para o HD ou SSD para serem mantidos;
+  * Quando o computador é desligado a mémoria RAM é limpa automaticamente;
+-HD ou SSD:
+  * O HD e o SSD são dispostitivos de armazenamentos de dados;
+  * O HD usa pratos mecanicos e um cabeçotes movel de leitura/gravação para acessar os dados;
+  * O SSD não possui partes moveis, apenas chips de memória;
+  * Independente do computador estar desligado ou não as informações contidas no HD ou SSD pemanecem guardadas;
+- Processador:
+  * É o cerebro do computador;
+  * Tranforma as informações em uma linguagem que o computador entenda (01001110011011110111011010111010110011);
+  * Tem o formato de um chip;
+  * Ele tranforma dados em informações, como, fazer download, abrir arquivos, executar programas, carregar uma pagina, etc;
+  * A velocidade do seu computador abrir/executar um programa é em parte responsabilidade do processador;
+
+
+
+
+
+  

@@ -1,0 +1,38 @@
+HTTP:
+  - "Hypertext Transfer Protocol";
+  - função trocar mensagem entre computadores;
+  - essa mensagem será enviada a um computador em diversos pedaços que chamamos de "chunks";
+
+URL:
+  - "Uniform Resource Locator";
+  - Função de localizador e identificador de recursos, nesse caso o site;
+
+COMUNICAÇÃO:
+  - Cliente: É o computador, dispositivo ou aplicativo que fez o pedido(Browser);
+  - Servidor: Computador configurado para receber os pedidos e enviar respostas aos pedidos;
+
+TCP:
+  - "Transmission Control Protocol";
+  - Função garantir que os pacotes(chunks) cheguem corretamente ao destino, já que eles vêm em diversos pedaços; 
+
+OBS: O endereço (web) precisa ser convertido em endereço de IP, através do DNS;
+
+IP:
+  - "Internet Protocol";
+  - Função endereçar os computadores, todos os computadores que estão conectados à internet possuem um IP;
+
+DNS:
+  - "Domain Name Servers";
+  - Função de converter um domínio em um endereço IP;
+  - Domínio sendo de maneira simples, uma forma mais fácil de lembrarmos o IP, sem precisar digita-lo, apenas digitando o nome;
+
+PROXYS:
+  - Proxy é qualquer dispositivo no meio do caminho entre o computador e o servidor, sendo ele Modem, ou outros computadores;
+  - Função de encaminhar os pacotes, passando de um para o outro, até chegar ao servidor;
+
+OBS: 
+  - O servidor analisa seu pedido e te dá a resposta, no caso positiva;
+  - a resposta retorna pela linha de comunicação em também diversos pedacinhos até o dispositivo;
+  - O Browser, monta o site para você;
+  - E esse processo ocorre diversas vezes para um pedido, já que cada recurso (html, css, javascript, imagens, etc) é feita uma nova conexão;
+

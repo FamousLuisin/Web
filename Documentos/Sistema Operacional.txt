@@ -1,0 +1,76 @@
+O QUE É UM SISTEMA OPERACIONAL?
+  - Interface entre o usuario e a maquina;
+  - Programa que irá controlar seu aparelho(Computador, celular);
+    * Gerenciamento de dispositivos(hardware);
+    * Gerenciamneto de aplicativos/programas(softwares);
+    * Gerencimaneto de tarefas;
+  - Conversar com o computador em linguagem de maquina;
+
+CARACTERISTICAS E OBJETIVOS:
+  1- Facil entedimento para o usuario;
+    * experiencia do usuario.
+  2- Controle de hardaware;
+    * Uso de perifericos.
+    * Memória.
+    * HD.
+  3- Gerenciamento de softwares;
+    * Programas.
+
+GRUPOS:
+  - Unix;
+    * Linux.
+    * Android.
+    * 0S X.
+  - Windows;
+
+TIPOS DE INTERFACE DO USUARIO;
+  - GUI:
+    * Grafical User Interface;
+    * Interface grafica, elementos graficos;
+      ° Cursor do mouse ou touch;
+      ° Area de trabalho;
+      ° Criar arquivos e pastas;
+  - CLI:
+    * Command-Line Interface;
+    * Linha de comandos
+    * Emitir comandos em texto para o computador;
+      ° Criar arquivos e pastas, por exemplo;
+
+MÓDULOS:
+  1- Karnel;
+    * Componente central, o cerne do SO;
+    * Primeiro mudolo a ser iniciado;
+    * Permanece executando enquanto o SO estiver ligado;
+    * Responsabilidades: 
+      ° Gerenciamento de memória, processos, armazenamento e dispositivo;
+
+  2- Gerenciador de processos;
+    * Processo é um programa em execução;
+    * Agendamento de processos (scheduling);
+      ° Qual processo esta executando agora;
+    * Thread;
+      ° A duvisão de um processo para melhor performace;
+      ° Um pedacinho do processo;
+      ° Poderá executar em paralelo;
+    * Multitarefa:
+      ° Multitasking;
+      ° Varias tarefas podem ser executas simultaneamente;
+        > Troca Muito rapida entre elas;
+      ° Tarefas em segundo plano; 
+
+  3- Gerenciador de arquivos;
+    * File System;
+    * Organização e armazenamento de arquivos;
+      ° Videos, Imagens, Documentos;
+    * Diretório (Pastas);
+    * Tipos de sistemas de arquivos;
+      ° FAT, NTFS (Windows);
+      ° ext3, ext4 (Linux);
+      ° HFS+, APFS (MAC);
+      ° São criados quando formatamos nosso disco por exemplo;
+
+FERRAMENTA DE GERENCIAMENTO:
+  - Tarefas (task manager(windows), activity(linux));
+  - Pacotes (chocolatey(windows), brew (Mac), apt(linux), snap(linux));
+
+  

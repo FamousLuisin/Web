@@ -1,0 +1,57 @@
+O QUE É CODAR?
+  - Escrever para o computador;
+  - Seguir regras;
+  - Linguagem humana X Linguagem de maquina;
+  - Codigo X programa:
+    * Programa é a junção de varios codigos;
+    * É um trecho independente;
+  - Codigo são comandos, ordens, instruções ao computador;
+  - O computador irá traduzir o seu codigo;
+  - Existem codigos em muitos eletronicos;
+
+O QUE É LINGUAGEM DE PROGRAMAÇÃO:
+  - Linguagem usada para dar instruções ao computador;
+  - Computador:
+    * O computador necessita de Input(entrada) e Output (saida);
+    * Executa tarefas e faz calculos;
+    * Ele so entende linguagem binaria (0 e 1);
+    * 0 e 1 é ligado e desligado;
+  -Abstração:
+    * Transformação de linguagens;
+    * Podemos entender uma linguagem de programação;
+    * O computador também pode entender;
+    * Nos precisamos aprender linguagens de programação;
+
+HIGH-LEVEL E LOW-LEVEL:
+  - Low lever:
+    * Significa baixo nivel;
+    * Mais proxima da maquina, do binario:
+      ° É mais dificil de escrever e de ler;
+      ° É mais rapida;
+    * Existem pouca interferencia de tradução;
+    * A programação começou pelo baixo nivel;
+    * Exemplo:
+      ° Assembly;
+  - High level:
+    * Significa alto nivel;
+    * Mais proxima da comunicação humana:
+      ° If, Else, Function, Object, Class ...
+    * Leva mais tempo para  maquina traduzir e compreender:
+      ° Compilar ou interpretar;
+      ° Nada mais que milissegundos;
+    * Exemplo:
+      ° Java, JavaScript, Python, rust, C/C++...
+
+SINTAXE:
+  - Conjuntos de regras de escrita;
+  - Cada linguagem tem suas regras;
+  - Simbolos:
+    * {} () ; = ++ -- ...
+  - Palavras reservadas:
+    * If, Else, While, For ...
+
+
+
+
+
+
