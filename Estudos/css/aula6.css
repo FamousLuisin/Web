@@ -1,0 +1,67 @@
+/*
+ID
+- Trabalhar com Id usa #;
+- #div1 h1{}: modifique apenas o h1 dentro do Id div1;
+- o Id ele deve ser trabalhado uma unica vez, não pode haver duas tags com mesmo id;
+
+CLASS
+- Trabalhar com class usa .;
+- .div2 h1{}: modifique apenas o h1 dentro da class div2;
+- class pode ser repetida diversas vezes;
+*/
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/*A especificação nesse caso é maior entao se sobrepoe*/
+div.menu{
+    width: 900px;
+}
+
+.menu{
+    /*width: largura do objeto a ser tratado*/
+    width: 400px;
+    background-color: white;
+    /*
+    margin: espaçamento externo
+    margin(top right bottom left)
+    margint(top/bottom right left)
+    margin(all)
+    */
+    margin: 30px auto;
+    /*
+    padding: espaçamento interno
+    padding(top right bottom left)
+    padding(top/bottom right left)
+    padding(all)
+    */
+    padding: 0;
+    /*text-aling: alinhamento de texto*/
+    text-align: center;
+
+}
+
+/*
+- O elemento ">" quer dizer que so o elemento filho daquela classe vai receber os atributos;
+- Sem eles todos os elementos dentro daquela classe vão receber o atributo;
+*/
+
+.menu a{
+    /*tamanho da fonte*/
+    font-size: 20px;
+    /*Cor do texto*/
+    color: red;
+    padding: 8px;  
+    margin: 0 10px;
+    /*text-decoration: decoração do texto*/
+    text-decoration: none;
+    /*
+    border: borda
+    border(top right bottom left)
+    border(top/bottom right left)
+    border(all)
+    */
+    border: 1px solid black;
+}
