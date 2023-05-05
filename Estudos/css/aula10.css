@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    height: 100%;
+}
+
+
+.center{
+    /*
+    RECOMENDADO: border-box >> Tudo é calculado dentro do espaçamento pré descrito (pedding, margin, border);
+        OBS: quanto maior o pedding menor a futuras filhas serão;
+
+    content-box >> É a soma de tudo(pedding, margin, border) com o espaçamento pré escrito;
+    */
+    box-sizing: content-box;
+
+    width: 1280px;
+    margin: 0px auto;
+    /*aumentar espaço interno*/
+    padding: 0px; 
+    background-color: gray;
+    
+}
+
+.artigo{
+    /*Calculo interno*/
+    box-sizing: border-box;
+
+    display: inline-block;
+    /*Precisa dessa margem, pois o display inline-block cria uma margem de 4px*/
+    /*Alinhamento vertical*/
+    vertical-align: top;
+    
+    margin-right: -4px;
+    margin-top: 30px;
+
+    /*Borda transparente*/
+    border: 5px solid rgba(25, 25, 255, 1);
+    width: 640px;
+    
+
+
+
+    /*Aplicar espaçamento*/
+    /*margin: 15px 17px;*/
+}
