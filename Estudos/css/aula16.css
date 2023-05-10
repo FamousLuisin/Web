@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html, body{
+    height: 100%;
+}
+
+.bg{
+    width: 400px;
+    height: 600px;
+    margin: 0 auto;
+
+    /*Cor*/
+    background-color: #faa;
+
+    /*background-image: imagem do background*/
+    background-image: url("/Estudos/html/imagens/aula16.jpg");
+    /*
+    * background-size: Tamanho da imagem
+    * é aconselhado usar x% auto pq a imagem continua "veridica"
+    * cover (Vai cobrir tudo, mas não perde veracidade) 
+    * contain (Vai usar o maior tamanho possivel da img, não perde veracidade)
+    */
+    background-size: contain;
+    /*background-repeat: Repetição da imagem*/
+    background-repeat: no-repeat;
+
+    background-position: center;
+}

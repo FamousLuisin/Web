@@ -7,4 +7,17 @@ html, body{
     height: 100%;
 }
 
+/*Pegue os links com atributo href*/
+a[href]{
+    background-color: yellow;
+}
 
+/*Pegar links com um href especifico*/
+a[href="https://www.google.com"]{
+    background-color: red;
+}
+
+/*Pegue todos que o href tenha a palavra youtube */
+a[href*="youtube"]{
+    background-color: blueviolet;
+}

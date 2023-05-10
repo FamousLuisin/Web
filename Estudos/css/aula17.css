@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html, body{
+    height: 100%;
+}
+
+
+.bg{
+    /*
+    width: 100%;
+    margin: 0 auto;
+    height: 30vw;
+    background-color: gray;
+    background-attachment: fixed;
+    background-image: url("/Estudos/html/imagens/aula17.jpg");
+    background-repeat: no-repeat;
+    */
+    /*
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    */
+}
+
+
+.box{
+    width: 100%;
+    margin: 80px auto;
+    text-align: center;
+    background-color: rgb(155, 155, 155);
+}
+
+.item{
+    width: 33.3%;
+    margin-right: -4px;
+    display: inline-block;
+}
+
+.item img{
+    width: 40%;
+}
+
+.item p{
+    background-color: red;
+    display: inline-block;
+    text-align: left;
+}
+
+.last{
+    margin-right: 0;
+}

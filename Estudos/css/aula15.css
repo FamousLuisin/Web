@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html, body{
+    height: 100%;
+}
+
+table{
+    width: 900px;
+    /*deixar a borda colidir ou um espaço entre ela e outra*/
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+table tr td{
+    height: 80px;
+    /*alinhar os textos da tablea na vertical*/
+    vertical-align: bottom;
+    border: 3px solid black;
+
+    background-color: #c9a0f7;
+}
+
+.menu{ 
+    /* 
+    Fixed: Vai deixar o menu fixo, mesmo com o scroo do mouse;
+    Absolute: não segue o fluxo/scroo da pagina;
+    Absolute e fixed: se movem baseado no elemento pai;
+    relative: Ele se move baseado no lugar inicial dele;
+    static: padrao;
+    */
+    position: static;
+    left: 30px;
+    top: 70px;
+    width: 200px;
+    height: 200px;
+    background: gray;
+}
+
+.box{
+    width: 400px;
+    height: 500px;
+    background: rgb(46, 46, 46);
+}
+
+.box p{
+    color: antiquewhite;
+    width: 400px;
+}
