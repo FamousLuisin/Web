@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html, body{
+    height: 100%;
+}
+
+/*
+ul{
+    list-style-position: inside;
+}
+*/
+
+/*
+Vai atacar a segunda li da ul
+ul li:nth-of-type(2){
+    color: red;
+}
+*/
+
+/*
+Vai atacar os filhos da ul
+ul p:nth-child(1){
+    color: green;
+}
+*/
+
+.box{
+    width: 100%;
+}
+
+.box > div{
+    box-sizing: border-box;
+    float: left;
+    height: 400px;
+    width: 33.3%;
+    background-color: peru;
+    border: 1px solid black;
+}
+
+/*
+Vai atacar o ultimo elemento do tipo especificado
+.box div:last-of-type{
+    background-color: palegreen;
+}
+
+.box div:nth-child(1) p{
+    color: antiquewhite;
+}
+
+OBS: temos tambem o las-child, maaas se o ultimo elemento nn for o elemento estipulado ele nn irá funcionar.
+*/
+
+/*Ataque os elementos que NÃO sejam da class one*/
+.box div:not(.one){
+    background-color: aqua;
+}
+
+/*Ataque elementos vazios*/
+p:empty{
+    width: 100%;
+    height: 20px;
+    background-color: blueviolet;
+}
+
+/*Adicionar depois*/
+p.depois::after{
+    content: ' Mais conteudo';
+}
+
+/*Adicionar antes*/
+p.antes::before{
+    content: 'yamete ';
+}

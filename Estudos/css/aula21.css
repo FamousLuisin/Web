@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html, body{
+    height: 100%;
+}
+
+form{
+    width: 96%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+form fieldset{
+    text-align: center;
+    padding: 0 50px;
+    border: 1px dotted;
+}
+
+form legend{
+    text-align: left;
+    font-size: 20px;
+    color: black;
+}
+
+form input[type=text]{
+    box-sizing: border-box;
+    display: inline-block;
+    margin: 5px 0;
+    width: 50%;
+    padding: 3px 10px;
+    border: 1px solid black;
+}
+
+form input[type=text]:focus{
+    outline: 0;
+}
+
+form select{
+    box-sizing: border-box;
+    display: inline-block;
+    width: 20%;
+    margin: 5px 0;
+    border: 1px solid black;
+    color: #aaa;
+}
+
+
+form select option[disabled]{
+    color: black;
+}
+
+form select:focus{
+    outline: 0;
+}
+
+form h2{
+    margin-top: 5px;
+    color: black;
+}
+
+.type-radio{
+    display: inline-block;
+    margin: 5px 0;
+    text-align: left;
+}
+
+.type-radio span{
+    margin-left: 10px;
+    font-size: 15px;
+    color: #aaa;
+}
+
+.type-check{
+    display: inline-block;
+    margin: 5px 0;
+    text-align: left;
+}
+
+.type-check span{
+    margin-left: 10px;
+    font-size: 15px;
+    color: #aaa;
+}
+
+form input[type=submit]{
+    width: 75px;
+    height: 45px;
+    padding: 3px;
+    margin: 5px 0;
+    border: 2px solid black;
+    color: #eee;
+    background-color: rgb(75, 74, 74);
+    cursor: pointer;
+}
+
+form textarea{
+    padding: 5px;
+    width: 60%;
+    height: 150px;
+    resize: none;
+    border: 1px solid black;
+
+}
+
+form textarea:focus{
+    outline: 0;
+}

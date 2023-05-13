@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html, body{
+    height: 100%;
+}
+
+.test, .test1, .test2{
+    margin-top: 20px;
+    width: 300px;
+    height: 30px;
+    /*
+    background-color: gray;
+    */
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.test1{
+    background-color: #97f;
+}
+
+.test2{
+    background-color: rgb(45, 95, 145);
+}
+
+/*Pseudo classe é baseada em dois pontos ":" e serve para alterar propriedades*/
+
+/* 
+    hover: quando o mouse passar por cima daquele elemento;
+
+.test:hover{
+    height: 500px;
+    background-color: black;
+}
+
+
+.test:hover, .test1, .test2{
+    vertical-align: top;
+}
+*/
+
+/*
+    active: enquanto vc clic/precisona em cima daquele elemento;
+
+
+.test:active{
+    background-color: red;
+}
+*/
+
+/*
+    focus: serve para formularios, e enquanto estiver em foco o formulario;
+
+.test:focus{
+    background-color: aqua;
+}
+*/
+
+/*
+    visited: serve para links, muda sua propriedade apos visitar a pagina daquele link
+
+.link:visited{
+    color: red;
+}
+*/
+
+/*
+    link: serve para links tbm, muda suas propriedades
+
+.link:link{
+    color: black;
+}
+*/

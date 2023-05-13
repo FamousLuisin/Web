@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html, body{
+    height: 100%;
+}
+
+.parent{
+    background-color: rgb(105, 105, 223);
+    width: 100%;
+    padding: 90px 0;
+    text-align: center;
+
+}
+
+.item{
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    background-color: green;
+    margin: 20px 0;
+}
+
+/*Nesse caso vai atacar a div de fora*/
+.parent div:nth-of-type(2){
+    background-color: gold;
+}
+
+/*Nesse caso vai atacar a div de da class item*/
+/*obs: 2n + 1 significa que começando do primeiro, a cada dois aplique essa propriedade*/
+.parent div:nth-of-type(2n + 1) > div.item{
+    background-color: red;
+}
+
+.parent p:last-child{
+    color: white;
+}
+
+.parent p:first-child{
+    color: gold;
+}
