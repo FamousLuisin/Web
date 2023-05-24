@@ -1,0 +1,68 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+}
+
+.slider{
+    width: 97%;
+    margin: 0 auto;
+    max-width: 500px;
+    height: 500px;
+    border: 1px solid #aaa;
+    position: relative;
+}
+
+.img-slider{
+    position: absolute;
+    left: 25%;
+    top: 0;
+    width: 20%;
+    height: 20%;
+    border-radius: 49%;
+    border: 1px solid white;
+    
+}
+
+.img-slider h1{
+    margin-top: 40%;
+    font-size: 15px;
+    margin-left: 25px;
+}
+
+.one{
+    background-color:  greenyellow;
+    /*Quanto maior o z-index é a preferencia*/
+    z-index: 1;
+}
+
+.two{
+    background-color: greenyellow;
+    z-index: 2;
+    left: calc(15% + 25%);
+}
+
+.three{
+    background-color: greenyellow;
+    z-index: 3;
+    left: calc(30% + 25%);
+}
+
+.one:hover{
+    background-color: orange;
+    z-index: 10;
+}
+
+.two:hover{
+    background-color: orange;
+    z-index: 10;
+}
+
+.three:hover{
+    background-color: orange;
+    z-index: 10;
+}
